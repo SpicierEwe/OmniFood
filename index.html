@@ -99,10 +99,11 @@
         </div>
       </div>
     </section>
-    <section class="section-meals">
-      <ul class="meals-showcase" clearfix>
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <section class="section-meals" clearfix>
+      <ul class="meals-showcase" >
         <li class="li1">
-          <figure class="menu-images menu-images1">
+          <figure class="menu-images menu-images1" clearfix>
             <img
               class="img1"
               src="resources/css/img/1.jpg"
@@ -111,7 +112,7 @@
           </figure>
         </li>
         <li class="li1">
-          <figure class="menu-images menu-images2">
+          <figure class="menu-images menu-images2" clearfix>
             <img
               class="img2"
               src="resources/css/img/2.jpg"
@@ -177,8 +178,11 @@
           </figure>
         </li>
       </ul>
+
+    <!-- <div class="clearfix"></div> -->
     </section>
-    <section class="steps">
+    <!-- -------------------------------------------------------------------------------- -->
+    <section class="steps" clearfix>
       <div class="row">
         <h1 class="hiw">How it works &mdash; Simple as 1, 2, 3</h1>
       </div>
@@ -221,6 +225,7 @@
       </div>
       <div class="clearfix"></div>
     </section>
+    <!-- ----------------------------------------------------------------------------------------- -->
     <section class="section-cities">
       <div class="row">
         <h2>We're currently in these cities</h2>
@@ -425,6 +430,73 @@
         <!-- -=--------------------------- -->
       </div>
       <div class="clearfix"></div>
+    </section>
+    <!-- --------------------------------------------------------------------- -->
+    <section class="section-forms" clearfix>
+      <div class="row">
+        <h2>We're happy to hear from you</h2>
+      </div>
+         
+ 
+    <div class="row" >
+      <form action="#" method="POST" class="contact-form">
+      <label class="lable0" for="k">Name</label>
+    <input class="name" type="text" name="name" id="k" placeholder="Name" required>
+  <!-- </div> -->
+    <div class="row" >
+    <div class="email">
+<label class="lable0" for="l">E-mail</label>
+<input class="email1" type="email" name="email" id="l" placeholder="E-mail" required>
+</div>
+</div>
+
+
+<div class="row" >
+  <div class=find-us>
+  <label class=find  for="find-us">How did you find us?</label>
+<select class=found name="find-us" id="find-us" required>
+<option value="friends">Friends</option>
+<option value="search">Google Search</option>
+<option value="other">Other</option>
+</select>
+  </div>
+  </div>
+
+  <div class="row" >
+    <div class="nl">
+    <label class= nl-lable ,lable0 for="n" >NewsLetter</label>
+ <input class =check-box id= "n" type="checkbox" name="Newsletter" class="Newsletter" checked required>Yes Please! 
+</div>
+
+    <div class="row" >
+    <div class="textarea">
+      <label class= drop for="x" >Drop us a line
+      </label>
+   <textarea class="area" name="message" id="x" placeholder="Your Message"></textarea>
+      </div>
+    </div>
+      <div class="row">
+    <input class=submit type=submit value = submit>
+  </div>
+
+  </div>
+
+
+
+
+
+
+
+
+</form>
+</div>
+
+
+      
+
+
+
+<div class="clearfix"></div>
     </section>
   </body>
 </html>

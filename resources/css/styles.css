@@ -508,7 +508,8 @@ blockquote::before {
   border: 2px solid #d35400;
 }
 .plan {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  padding-bottom: 50px;
   line-height: 30px;
   text-transform: uppercase;
   background-color: #dfdddd;
@@ -528,11 +529,7 @@ blockquote::before {
   padding-bottom: 20px;
   /* vertical-align: middle; */
 }
-.plan-box div {
-  /* border-radius: 50px; */
 
-  /* border-bottom: 2px solid #d35400; */
-}
 .plan-box {
   border: 2px solid #d35400;
   border-radius: 50px;
@@ -562,4 +559,132 @@ blockquote::before {
 }
 .bc3 {
   margin-top: 20%;
+}
+.section-forms {
+  background-color: rgb(245, 243, 240);
+}
+form {
+  /* font-size: 110%; */
+  text-align: center;
+  line-height: 50px;
+  font-family: "Lato";
+  font-weight: 700;
+  /* background-color: bisque; */
+}
+label {
+  margin-right: 10%;
+  color: #d35400;
+  /* font-weight: 800; */
+}
+.find-us {
+  margin-left: -50px;
+}
+input {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 90%;
+  padding: 10px;
+  /* box-shadow: 1px -1px 6px rgba(0, 0, 0, 0.7); */
+  /* font-family: "Lato"; */
+  /* font-weight: 800; */
+  border-radius: 10px;
+  border: 1px solid black;
+  /* padding-right: 50px; */
+  /* width: 50%; */
+}
+input:hover {
+  border: 2px solid orange;
+}
+select {
+  font-size: 93%;
+  width: 30%;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.find-us {
+  margin-right: 6%;
+}
+.found {
+  background-color: rgb(253, 253, 253);
+}
+.found:hover {
+  border: 2px solid orange;
+}
+.name,
+.email1 {
+  width: 30%;
+  box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.3);
+}
+/* .nl-lable {
+  display: inline-block;
+  margin-left: -35%;
+}*/
+
+.textarea {
+  /* margin-left: -20%; */
+
+  /* width: 10%; */
+
+  margin-left: 11%;
+  /* width: 50%; */
+}
+.area {
+  font-size: 90%;
+  padding: 10px;
+  font-family: "Lato";
+  font-weight: 800;
+  box-shadow: 1px -1px 6px rgba(0, 0, 0, 0.3);
+}
+.nl {
+  margin-right: 20%;
+  margin-left: -1%;
+}
+.nl-lable {
+  margin-left: -9%;
+  /* position: absolute; */
+  /* left: -4%; */
+  width: 22%;
+  display: inline-block;
+  /* position: fixed; */
+}
+.check-box {
+  display: inline-block;
+  /* position: absolute; */
+  /* margin-right: 20%; */
+  text-align: center;
+  width: 50px;
+}
+
+.drop {
+  margin-left: -5%;
+  position: absolute;
+  right: 55%;
+}
+.area:hover {
+  border: 2px solid orange;
+}
+.area {
+  width: 33%;
+  height: 20%;
+  font-style: italic;
+  margin-left: 5%;
+}
+.submit {
+  margin-top: 3%;
+  width: 17%;
+  margin-bottom: 5px;
+  margin-left: 15%;
+  border-radius: 50px;
+  padding: 15px 20px;
+  color: white;
+  background-color: #d35400;
+  border: 2px solid #d35400;
+  transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+.submit:hover {
+  background-color: orange;
+  color: #d35400;
+
+  /* border: 3px solid #d35400; */
 }
