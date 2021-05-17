@@ -1,0 +1,16 @@
+/* ---big tabs ------ */
+@media only screen and (width-size: 1200px) {
+}
+
+/* ==========for big tabs in portrait mode */
+@media only screen and (width-size: 1023px) {
+}
+
+/* =============for small - phones / tablets=============== */
+@media only screen and (max-width: 767px) {
+}
+
+/* -----------MOBILE--------------- */
+
+@media only screen and (max-width: 480px) {
+}
