@@ -1,6 +1,7 @@
 /* ---big tabs ------ */
 @media only screen and (width-size: 1200px) {
-  .hero-text-box {
+  .hero-text-box,
+  .main-nav {
     width: 100%;
     padding: 0 2%;
   }
@@ -21,7 +22,8 @@
 /* -----------MOBILE--------------- */
 
 @media only screen and (max-width: 480px) {
-  .hero-text-box {
+  .hero-text-box,
+  .main-nav {
     width: 100%;
     padding: 0 2%;
   }
