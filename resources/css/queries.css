@@ -9,6 +9,9 @@
     width: 100%;
     padding: 0 2%;
   }
+  .ROW {
+    padding: 0 2%;
+  }
 }
 
 /* ==========for big tabs in portrait mode */
